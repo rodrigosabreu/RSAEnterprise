@@ -66,6 +66,8 @@ namespace RSA.Identidade.API
             });
 
             services.AddControllers();
+
+
             //documentacao da api com swagger
             services.AddSwaggerGen(c =>
             {
